@@ -16,7 +16,7 @@ You may view the created content by clicking the links below. These link to the 
 
 <ul>
 <li><a href="/index.html">Click me to view the index (home) page</a></li>
-<li><a href="/web-protection.html">Click me to view the second (extra) page</a></li>
+<li><a href="pages/web-protection.html">Click me to view the second (extra) page</a></li>
 </ul>
 
 </div>
