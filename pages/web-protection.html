@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+  <link rel="stylesheet" href="../assets/css/denver.css">
+  <link rel="stylesheet" href="../assets/css/tooltips.css">
+
+  <title>Protecting Yourself Against DDoS & Malicious Attacks</title>
+</head>
+
+<body>
+  <!-- start the navigation bar -->
+  <div id="navbar">
+    <a href="../index.html">Home</a>
+    <a class="active" href="../pages/web-protection.html">DDoS Protection Tips</a>
+    <a id="NewsletterBtn" style="color:silver!important;float:right;">Newsletter</a>
+  </div>
+  <!-- end the navigation bar -->
+
+<!-- start the first content section -->
+<div class="first-content-section">
+  <div class="profile-image-section">
+  <img class="heading-image" style="border:2px solid rgba(0,0,0,0.18);border-radius:7px;float:left;margin: 0 30px 0 0;max-width:250px;height:auto;" src="../assets/img/wp-1.gif" alt="DDoS Attacks">
+  </div>
+
+  <div class="about-me-section">
+  <h2 style="text-decoration:none;">DDoS Protection Guide & Best Practices</h2>
+  <hr>
+  <h3>DDoS Explained</h3>
+  <br>
+  <p class="web-descp">You've launched a website that is gaining page-view traction, leading to increased views per day. Congratulations!
+    Your website is doing great. Unfortunately, that also means that more people on the internet are willing to test and toy with your content security.</p>
+    <br>
+  <p class="web-descp">You've probably heard of the phrase DDoS (Distributed Denial-of-Serivce) attack, however, do you know what that means?<br><br>
+     <a class="ddos-definition" style="color:silver;font-weight:bold;" href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/" target="_blank">Defined by CloudFlare</a>, a DDoS attack is a flood of traffic
+      from users who share a single behavioral profile, such as device type, geolocation, or web browser version. Attacks can be identified as an exploded surge in requests to a single page or endpoint,
+       odd trafic patterns such as spikes at odd hours of the day, or patterns that appear to be unnatural.</p>
+
+  <h3 style="text-decoration:none;">Why Protect Your Website?</h3>
+  <br>
+  <p class="web-descp">Someone, somewhere, will have the nerve to scan your website's DNS and MX records, available and unprotected ports, host address IP history,
+    and more. If you haven't taken the neccesary steps to protect yourself before this happens, you may be out of luck!<br><br>
+    Revealing your website's connectivity information can be deadly; If your web server's origin IP is revealed, attacks can bypass any sort of client-sided packet or firewall protection, unless
+    you've placed a hefty firewall on your direct server, controlling incoming/outgoing rulesets for internet traffic.
+  </p>
+  <h3 style="text-decoration:none;">Blocking & Protecting Your Content Against Web-Threats</h3>
+  <br>
+  <p class="web-descp">In order to successfully mitigate a potential DDoS attack, you have to go inside the mind of the attacker, understand your web server's structure, and have some technical
+     knowledge of how internet traffic is routed to your webpage. I've listed the most common ports used during a DDoS attack below: </p>
+
+     <!-- common attacked ports section
+     <div class="port-info">
+       <div class="UDP-ports">
+         <h4 style="color:silver;">Common Vulnerable <b style="color:whitesmoke;">UDP</b> Ports</h4>
+         <ul>
+           <li>Port <b style="color:whitesmoke;">401</b> <span style="color:#8b3a8b;">|</span> Server Remote Power</li>
+           <li>Port <b style="color:whitesmoke;">3479/3480</b> <span style="color:#8b3a8b;">|</span> Playstation Network</li>
+           <li>Port <b style="color:whitesmoke;">3074</b> <span style="color:#8b3a8b;">|</span> Xbox Live Services</li>
+           <li>Port <b style="color:whitesmoke;">19/123</b> <span style="color:#8b3a8b;">|</span> Home Networks</li>
+         </ul>
+       </div>
+
+       <div class="TCP-ports">
+         <h4 style="color:silver;">Common Vulnerable <b style="color:whitesmoke;">TCP</b> Ports</h4>
+         <ul>
+           <li>Port <b style="color:whitesmoke;">80</b> <span style="color:#8b3a8b;">|</span> Layer 3/4 Attacks</li>
+           <li>Port <b style="color:whitesmoke;">443</b> <span style="color:#8b3a8b;">|</span> Layer 7 Attacks</li>
+           <li>Port <b style="color:whitesmoke;">3306</b> <span style="color:#8b3a8b;">|</span> AMP Layer 3/4/7 Attacks</li>
+         </ul>
+       </div>
+     </div>-->
+
+<!-- table section -->
+     <section>
+       <div class="table-heading">
+         <table cellpadding="0" cellspacing="0" border="0">
+           <thead>
+             <tr>
+               <th>TYPE</th>
+               <th>USAGE</th>
+               <th>PORT #</th>
+             </tr>
+           </thead>
+         </table>
+       </div>
+       <div class="table-content">
+         <table cellpadding="0" cellspacing="0" border="0">
+           <tbody>
+             <tr>
+               <td>UDP</td>
+               <td>Server Remote Power</td>
+               <td>401</td>
+             </tr>
+             <tr>
+               <td>UDP</td>
+               <td>Playstation Network</td>
+               <td>3479/3480</td>
+             </tr>
+             <tr>
+               <td>UDP</td>
+               <td>Xbox Live Services</td>
+               <td>3074</td>
+             </tr>
+             <tr>
+               <td>UDP</td>
+               <td>Home Networks & Routers</td>
+               <td>19/123</td>
+             </tr>
+             <tr>
+               <td>TCP</td>
+               <td>Layer 3/4 HTTP Attacks</td>
+               <td>80</td>
+             </tr>
+             <tr>
+               <td>TCP</td>
+               <td>Layer 3/4 AMP Attacks</td>
+               <td>3306</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+     </section>
+
+<p style="text-align:center;padding-top:10px;margin:0;color:white;">Please keep in mind that this page has not yet been completed. More information to protect yourself will be added.</p>
+</div>
+
+  </div>
+<!-- end the first content section -->
+
+<!-- start the second content section
+  <div class="second-content-section">
+  </div> end the second content section -->
+
+</body>
+
+<!-- modal newsletter popup -->
+<div id="NewsletterPopup" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <H2 style="margin:0px;text-align:center;text-decoration: none;">Receive Direct Security Tips & Guidance</H2>
+    <hr>
+    <p class="modal-message">Want to make sure your website security is kept up-to-date with the latest methods of protection? Subscribe to my newsletter!<br>
+    You'll receive one <span style="font-weight:bold;">bi-weekly email</span>, containing some of my security secrets and guides for protecting yourself and your work online.</p>
+
+    <div class="newsletter-form">
+      <form action="/future-newsletter-action.php">
+
+        <div class="form-container">
+          <input type="text" placeholder="Your name" name="name" required>
+          <input type="text" placeholder="Your email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe" required> Agree to bi-weekly newsletter
+          </label>
+        </div>
+
+        <div class="container">
+          <input type="submit" value="Subscribe Today">
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- start the site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+       <a style="font-weight:bold;" href="https://cadogy.com/">CAODGY</a>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+</footer>
+<!-- end the site footer -->
+
+<!-- attach scripts -->
+<script src="../assets/js/sticky.js"></script>
+<script src="../assets/js/table.js"></script>
+<script src="../assets/js/modal.js"></script>
+<script src="../assets/js/disable-rightclick.js"></script>
+</html>

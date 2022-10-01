@@ -1,0 +1,498 @@
+/* ################## NAVBAR CSS ################## */
+/* ################################################ */
+
+#navbar {
+  list-style-type: none;
+  margin-top: 2rem;
+  padding: 0px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 1px solid rgba(127,81,213,0.58);
+}
+#navbar>a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 14px;
+}
+
+.active {
+  background-color: orange;
+  color: white !important;
+  box-shadow: inset 0px 0px 4px black;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7a5bb3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ################## FOOTER CSS ################## */
+/* ################################################ */
+
+.site-footer
+{
+  background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a9a9a9;
+  margin-bottom: 20px;
+  border: 1px solid rgba(127,81,213,0.58);
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+/* ############## FIRST-CONTENT CSS ################ */
+/* ################################################# */
+
+.first-content-section {
+  background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
+  border-radius: 7px;
+  color: white;
+  box-shadow: 0px 0px 14px rgb(0 0 0 / 50%);
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
+  padding: 10px;
+  border: 1px solid rgba(127,81,213,0.58);
+}
+/** icons & name **/
+.name-email {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+}
+.info-1, .info-2, .info-3 {
+  margin: 2px;
+}
+
+.emailme {
+  max-width: 39px;
+  height: auto;
+}
+.emailme:hover {
+  transition: .3s;
+  transform: scale(1.05);
+}
+/** heading image content **/
+img.heading-image {
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.50);
+}
+img.heading-image:hover {
+  animation: 1s;
+  transform: scale(1.00);
+  transition: all 500ms;
+  box-shadow: 0px 0px 14px rgba(91,25,179,0.50);
+}
+/** socials section **/
+.socials-section {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.socials-section>a {
+  text-decoration: none !important;
+}
+/** LinkedIn content **/
+.linkedin-a {
+  text-align: center;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.58);
+  font-weight: bold;
+}
+.linkedin-a:hover {
+  color: #b85cdf !important;
+  transition: .3s;
+  transform: scale(1.05);
+}
+/** a.linkedin-a:before {
+  content: "\f08c";
+  height: 32px;
+  width: 32px;
+  padding-right: 5px;
+  font-family: "Font Awesome\ 6 Brands";
+  color: #7a4d89;
+  font-size: 28px;
+} **/
+
+/* ############## SECOND-CONTENT CSS ############### */
+/* ################################################# */
+
+.second-content-section {
+  background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
+  border-radius: 7px;
+  color: white;
+  box-shadow: 0px 0px 14px rgb(0 0 0 / 50%);
+  margin-top: 2rem !important;
+  padding: 10px;
+  border: 1px solid rgba(127,81,213,0.58);
+  margin-bottom: 18px;
+}
+
+/* ############## WEB PROTECTION CSS ############### */
+/* ################################################# */
+
+.ddos-definition:hover {
+  color: #af59d3 !important;
+}
+.web-descp {
+  max-width: 97%;
+}
+
+/* ############## FULL-PAGE STYLING ############### */
+/* ################################################ */
+
+html {
+  font-family: monospace;
+  background: url(../../assets/img/bg-denver.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+}
+
+body {
+  margin: auto;
+  max-width: 1300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ############### TABLE STYLE CSS ################ */
+/* ################################################ */
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.table-heading {
+  background-color: rgb(255 255 255 / 8%);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+ }
+.table-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: 1px solid #464646;
+}
+.table-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+.table-content::-webkit-scrollbar-thumb {
+    background: #7a5bb3;
+}
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+}
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* ############## MODAL CONTENT CSS ############### */
+/* ################################################ */
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.modal-message {
+    margin: 0;
+    text-align: center;
+    color: silver;
+    padding-top: 5px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
+  margin: 15% auto;
+  padding: 20px;
+  border: 0px solid #888;
+  width: 62%;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  border-radius: 7px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  display: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  margin: 5px;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #303030;
+  border-radius: 7px;
+  border: 1px solid rgba(127,81,213,0.58);
+  color: pink;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+label {
+  color: silver;
+}
+
+/* ############# HEADING/CONTENT CSS ############## */
+/* ################################################ */
+
+h2 {
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: underline;
+  color: white;
+}
+
+h3 {
+  user-select: none;
+  -webkit-user-select: none;
+  color: orange;
+  font-family: cursive;
+  padding-left: 12px;
+}
+h4 {
+  user-select: none;
+  -webkit-user-select: none;
+  color: orange;
+  font-family: cursive;
+  padding-left: 12px;
+}
+
+P {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: -16px;
+  font-size: 16px;
+  user-select: none;
+  max-width: 97%;
+  -webkit-user-select: none;
+}
+#exit-statement {
+  color: whitesmoke !important;
+  font-weight: bold;
+}
+a {
+  color: #9634bf !important;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ################ LIST/ITEMS CSS ################ */
+/* ################################################ */
+
+ol {
+    user-select: none;
+    -webkit-user-select: none;
+    color: silver;
+    font-size: 16px;
+}
+ul {
+    user-select: none;
+    -webkit-user-select: none;
+    color: silver;
+    font-size: 16px;
+}
+
+hr {
+  height: 1px;
+  background-color: #3e3e3e;
+  border: none;
+}
+
+.port-info {
+    display: flex;
+    justify-content: center;
+}
+
+/* ############ MOBILE-RESPONSIVE CSS ############# */
+/* ################################################ */
+
+/** mobile-responsive padding for list items **/
+@media only screen and (max-width: 600px) {
+  .emailme {
+    display: none;
+  }
+  .heading-image {
+    display: none;
+  }
+  body {
+    padding: 10px;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  body {
+    padding: 15px;
+    padding-top: 0px;
+  }
+}
