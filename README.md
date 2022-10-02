@@ -1,10 +1,10 @@
 # Cadogy.Github.IO
 <br>
-<div>Caching has been disabled in order to provide you with the most recent structure and changes. I DO NOT RECOMMEND turning off caching on a public release.</div>
+<div>Caching has been disabled in order to provide you with the most recent structure and changes.<br>I DO NOT RECOMMEND turning off caching on a public release.</div>
 <br>
 This is the official pre-work repository for my assignment.<br>
 While this content is not complete yet, pushes will be made periodically to maintain the structure, libraries, and more.
-
+<br><br>
 <div align="left">
     <a href="https://cadogy.com/" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
     <a href="https://cloudflare.com/" target="_blank"><img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"></a>
