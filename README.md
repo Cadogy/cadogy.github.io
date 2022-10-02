@@ -1,6 +1,6 @@
 # My Pre-Work Assignment 4 <img style="max-width:100px;height:auto;" src="https://www.activateit.co/wp-content/uploads/2021/12/ActivateWork-Logo-244x54-1.png">
 <br>
-<div style="color:Firebrick;"><em>Caching has been disabled in order to provide you with the most recent structure and changes.<br>I DO NOT RECOMMEND turning off caching on a public release.,</em></div>
+<div style="color:red;"><em>Caching has been disabled in order to provide you with the most recent structure and changes.<br>I DO NOT RECOMMEND turning off caching on a public release.,</em></div>
 <br>
 This is the official pre-work repository for my assignment.<br>
 While this content is not complete yet, pushes will be made periodically to maintain the structure, libraries, and more.
