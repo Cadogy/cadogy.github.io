@@ -312,6 +312,10 @@ td {
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
+td:hover {
+  font-weight: bold;
+  color: orange;
+}
 
 /* ############## MODAL CONTENT CSS ############### */
 /* ################################################ */
