@@ -37,12 +37,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #7a5bb3;
+    background: #262626;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
+    background: #7a5bb3;
+    border-radius: 3px !important;
 }
 
 /* Handle on hover */
