@@ -421,14 +421,14 @@ h3 {
   user-select: none;
   -webkit-user-select: none;
   color: orange;
-  font-family: cursive;
+  font-family: system-ui;
   padding-left: 12px;
 }
 h4 {
   user-select: none;
   -webkit-user-select: none;
   color: orange;
-  font-family: cursive;
+  font-family: system-ui;
   padding-left: 12px;
 }
 
