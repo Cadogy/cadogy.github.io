@@ -60,7 +60,7 @@
   background: linear-gradient(180deg, rgba(28,34,40,1) 0%, rgba(37,35,50,1) 100%);
   border-radius: 7px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   color: #a9a9a9;
   margin-bottom: 20px;
@@ -79,7 +79,7 @@
 .site-footer h6
 {
   color:#fff;
-  font-size:16px;
+  font-size:18px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
@@ -439,7 +439,7 @@ P {
   padding-left: 12px;
   padding-right: 12px;
   margin-top: -16px;
-  font-size: 16px;
+  font-size: 18px;
   user-select: none;
   max-width: 97%;
   -webkit-user-select: none;
@@ -461,13 +461,13 @@ ol {
     user-select: none;
     -webkit-user-select: none;
     color: silver;
-    font-size: 16px;
+    font-size: 18px;
 }
 ul {
     user-select: none;
     -webkit-user-select: none;
     color: silver;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 hr {
