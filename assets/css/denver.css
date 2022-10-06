@@ -243,7 +243,7 @@ img.heading-image:hover {
 /* ################################################ */
 
 html {
-  font-family: monospace;
+  font-family: 'Roboto', sans-serif;
   background: url(../../assets/img/bg-denver.png);
   background-position: top;
   background-size: cover;
@@ -417,13 +417,14 @@ h2 {
   -webkit-user-select: none;
   text-decoration: underline;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   user-select: none;
   -webkit-user-select: none;
   color: orange;
-  font-family: system-ui;
+  font-family: 'Roboto', sans-serif;
   padding-left: 12px;
 }
 h4 {
