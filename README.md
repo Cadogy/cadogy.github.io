@@ -1,4 +1,4 @@
-# My Pre-Work Assignment For <img style="max-width:100px;height:auto;" src="https://www.activateit.co/wp-content/uploads/2021/12/ActivateWork-Logo-244x54-1.png">
+# This is my simple portfolio! Check it out :)
 <br>
 <div><em>Caching has been disabled in order to provide you with the most recent structure and changes.<br>I DO NOT RECOMMEND turning off caching on a public release.</em></div>
 <br>
